@@ -77,7 +77,7 @@ document.querySelector("#buttons").onclick = (event) => {
         a = a * b;
         break;
       case "%":
-        a = a % b;
+        a = a * (b / 100);
         break;
       case "/":
         if (b === "0") {
